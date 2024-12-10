@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Fonts Start */
+
+@font-face {
+    font-family: Doom;
+    src: url('../utils/fonts/DooM.ttf');
+}
+
+
+/* Fonts End */
+
+/* Main CSS Start */
+body {
+    background-image: linear-gradient(rgb(237, 222, 222), rgb(139, 139, 164));;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    background-image: linear-gradient(rgb(57, 13, 13), rgb(0, 0, 0));
+    color: transparent;
+    background-clip: text;
+}
+
+h1 {
+    font-family: Doom, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: Doom, sans-serif;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+li {
+    font-style: italic;
+}
+ 
+
+.crab.li {
+    background-image: linear-gradient(rgb(153, 37, 37), rgb(19, 19, 114));
+    color: transparent;
+    background-clip: text;
+}
+
+img {
+    border-style: dashed;
+}
+
+/* Main CSS End */
+
