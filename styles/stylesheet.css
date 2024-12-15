@@ -4,7 +4,13 @@
 
 @font-face {
     font-family: Doom;
-    src: url('../utils/fonts/DooM.ttf');
+    src: url('../fonts/DooM.ttf');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 
@@ -13,7 +19,7 @@
 /* Main CSS Start */
 
 html {
-    background-image: linear-gradient(rgb(237, 222, 222), rgb(139, 139, 164));
+    background-image: linear-gradient(rgb(210, 100, 37), rgb(210, 19, 114));
     min-height: 100%;
 }
 
@@ -24,13 +30,13 @@ body {
 }
 
 p {
-    background-image: linear-gradient(rgb(57, 13, 13), rgb(0, 0, 0));
-    color: transparent;
-    background-clip: text;
+    color: white;
+    font-weight: bold;
 }
 
 h1 {
     font-family: Doom, sans-serif;
+    color: white;
     font-size: 48px;
 }
 
@@ -38,10 +44,16 @@ h2 {
     font-family: Doom, sans-serif;
     font-weight: 100;
     text-decoration: underline;
+    color: white;
 }
 
 li {
     font-style: italic;
+    color: white;
+}
+
+a {
+    color: white;
 }
  
 
@@ -53,7 +65,64 @@ li {
 
 img {
     border-style: dashed;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 /* Main CSS End */
+
+/* Class Blocks */
+
+
+.landing-page {
+
+    border: 6px solid white;
+    background-image: linear-gradient(rgb(210, 100, 37), rgb(255, 19, 114));
+    padding-left: 72px;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.header-box,
+.list-container,
+.text-container
+{
+    margin-top: 20px;
+
+}
+
+.header-box {
+    height: auto;
+    width: 50vh;
+    padding: 10px;
+    border: 6px solid white;
+    background-image: linear-gradient(rgb(210, 100, 37), rgb(210, 19, 114));
+    text-align: center;
+}
+
+.text-container {
+    height: auto;
+    width: 50vh;
+    border: 6px solid white;
+    padding-left: 20px;
+    background-image: linear-gradient(rgb(210, 100, 37), rgb(210, 19, 114));
+
+}
+
+.list-container {
+    height: auto;
+    width: 50vh;
+    border: 6px solid white;
+    padding-left: 20px;
+    background-image: linear-gradient(rgb(210, 100, 37), rgb(210, 19, 114));
+
+}
+
+
+
+
 
